@@ -1,0 +1,121 @@
+@import '../../components/colors/variables.css';
+
+.sectionContainer {
+    width: 100%;
+    background: rgb(169, 122, 89);
+    background: linear-gradient(180deg, rgba(169, 122, 89, 1) 2%, rgba(186, 138, 103, 1) 7%, rgba(188, 140, 105, 1) 9%, rgba(203, 153, 117, 1) 19%);
+    display: flex;
+    justify-content: center;
+    padding-top: 44px;
+}
+
+.sectionWrapper {
+    max-width: var(--section-max-width);
+    width: var(--section-width);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.titleWrap {
+    width: 100%;
+    position: relative;
+    height: max-content;
+}
+
+.titleBackground {
+    width: 80%;
+    height: max-content;
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    display: block;
+    z-index: 4;
+    font-size: 54px;
+    top: 35%;
+    left: 40%;
+}
+
+.textContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    min-height: 530px;
+}
+
+.leftTextContainer{
+    composes: textContainer;
+    min-height: 400px;
+}
+
+.sideImg {
+    width: 35%;
+}
+
+.rightTextWrap {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: right;
+    position: relative;
+    align-items: flex-end;
+}
+.leftTextWrap {
+    composes: rightTextWrap;
+    text-align: left;
+    align-items: flex-start;
+}
+
+.textBackground {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+
+.rightSubTitle {
+    padding-top: 100px;
+    display: block;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    z-index: 2;
+    margin-right: 36px;
+}
+
+.leftSubTitle{
+    composes: rightSubTitle;
+    padding-top: 60px;
+    margin-left: 36px;
+    margin-right: 0;
+}
+
+.rightSubText {
+    display: block;
+    font-size: 26px;
+    max-width: var(--about-text-width);
+    z-index: 2;
+    margin-right: var(--about-text-margin);
+}
+
+.leftSubText{
+    composes: rightSubText;
+    margin-right: 0;
+    margin-left: 36px;
+}
+
+.centeredImg {
+    width: 80%;
+    margin-bottom: 80px;
+}
+
+.lastSectionImg {
+    width: 90%;
+    margin-bottom: 40px;
+}

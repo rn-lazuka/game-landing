@@ -1,0 +1,17 @@
+.sectionContainer{
+    width: 100%;
+    background: rgb(133,76,48);
+    background: linear-gradient(180deg, rgba(133,76,48,1) 0%, rgba(169,122,89,1) 100%);
+    display: flex;
+    justify-content: center;
+}
+.sectionWrapper {
+    display: flex;
+    justify-content: center;
+    max-width: 40%;
+    width: 40%;
+}
+
+.sectionWrapper img {
+    width: 100%;
+}

@@ -1,0 +1,99 @@
+.sectionContainer {
+    width: 100%;
+    background: #A97A59;
+    display: flex;
+    justify-content: center;
+}
+
+.sectionWrapper {
+    max-width: 40%;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    padding-bottom: 44px;
+}
+
+.titleWrap {
+    width: 100%;
+    position: relative;
+    height: max-content;
+}
+
+.titleBackground {
+    background-image: url("../../assets/History/historyTitleBg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 240px;
+    position: relative;
+}
+
+.titleDecoration {
+    background-image: url("../../assets/History/titleDecoration.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    z-index: 1;
+    width: 70%;
+    height: 150px;
+    top: 30px;
+    left: 13%
+}
+
+.title {
+    position: absolute;
+    display: block;
+    z-index: 4;
+    font-size: 54px;
+    top: 35%;
+    left: 30%;
+}
+
+.avatarsWrapper {
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.avatarsWrapper img {
+    width: 20%;
+}
+
+.textWrap {
+    composes: titleWrap;
+}
+
+
+.textBackground {
+    composes: titleBackground;
+    background-image: url("../../assets/History/textBackground.png");
+}
+
+.text {
+    position: absolute;
+    display: block;
+    z-index: 4;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    font-size: 26px;
+}
+
+.spritesWrap {
+    height: max-content;
+}
+
+.sprites {
+    width: 86%;
+}
+
+.footerDecoration {
+    width: 44%;
+}
