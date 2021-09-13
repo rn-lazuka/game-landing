@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     box-sizing: border-box;
+    margin: -1px;
 }
 
 .sectionWrapper {
@@ -30,9 +31,11 @@
     background-image: url("../../assets/History/historyTitleBg.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
     width: 100%;
-    height: 240px;
     position: relative;
+    height: 240px;
 }
 
 .titleDecoration {
@@ -42,18 +45,18 @@
     background-size: contain;
     z-index: 1;
     width: 70%;
-    height: 150px;
+    height: 200px;
     top: 30px;
-    left: 13%
+    left: 15%
 }
 
 .title {
     position: absolute;
     display: block;
     z-index: 4;
-    font-size: 54px;
-    top: 35%;
-    left: 30%;
+    font-size: var(--title-size);
+    top: 38%;
+    left: 33%;
 }
 
 .avatarsWrapper {
@@ -100,4 +103,63 @@
 
 .footerDecoration {
     width: 44%;
+}
+
+
+@media screen and (max-width: 1350px) {
+    .title {
+        left: 38%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .title {
+        top: 38%;
+        left: 33%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .titleDecoration {
+        width: 90%;
+        left: 5%;
+    }
+    .textBackground{
+        height: 380px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .title {
+        top: 34%;
+        left: 28%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .title {
+        top: 30%;
+        left: 25%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .title {
+        top: 30%;
+        left: 20%;
+    }
+    .textBackground{
+        height: 440px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .title {
+        top: 27%;
+        left: 24%;
+    }
+
+    .textBackground{
+        height: 500px;
+    }
 }

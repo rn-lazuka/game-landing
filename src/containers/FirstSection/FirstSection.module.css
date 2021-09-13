@@ -17,6 +17,7 @@
     justify-content: center;
     max-width: var(--section-max-width);
     width: var(--section-width);
+    margin: -1px;
 }
 
 .sectionWrapper img {

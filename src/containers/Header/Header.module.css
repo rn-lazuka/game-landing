@@ -14,6 +14,7 @@
     box-sizing: border-box;
     z-index: 99;
 }
+
 .navWrapper {
     display: flex;
     justify-content: space-between;
@@ -21,6 +22,11 @@
     height: 100%;
     width: var(--header-width);
     max-width: var(--header-max-width);
+}
+
+.navWrapper a {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
 }
 
 .leftWrapper {
@@ -33,6 +39,9 @@
     height: 76px;
     width: 72px;
     margin-right: 32px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
 }
 
 .btn {
@@ -72,4 +81,21 @@
     height: 64px;
     cursor: pointer;
     margin-right: 16px;
+}
+
+@media screen and (max-width: 1020px) {
+    .logo {
+        margin-left: 16px;
+    }
+}
+@media screen and (max-width: 1600px) {
+    .logo {
+        height: 58px;
+        width: 54px;
+    }
+
+    .socialLink {
+        width: 50px;
+        height: 50px;
+    }
 }

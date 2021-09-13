@@ -6,6 +6,8 @@
     --footer-divider-color: #CF8D46;
     --roadmap-back-color:#A97A59;
 
+    --title-size: 70px;
+    --sub-title-size:54px;
     --header-height: 150px;
     --header-width: 1000px;
     --header-max-width: 1000px;
@@ -23,5 +25,30 @@
         --nav-btn-width: 150px;
         --section-width: 1000px;
         --footer-height: 100px;
+
+        --title-size: 64px;
     }
 }
+
+@media screen and (max-width: 1350px) {
+    :root {
+        --title-size: 50px;
+        --sub-title-size: 40px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    :root {
+        --title-size: 44px;
+        --sub-title-size: 36px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    :root {
+        --title-size: 36px;
+        --sub-title-size: 30px;
+    }
+}
+
+

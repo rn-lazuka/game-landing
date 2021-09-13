@@ -8,6 +8,7 @@
     justify-content: center;
     padding-top: 44px;
     box-sizing: border-box;
+    margin: -1px;
 }
 
 .sectionWrapper {
@@ -36,7 +37,7 @@
     position: absolute;
     display: block;
     z-index: 4;
-    font-size: 54px;
+    font-size: var(--title-size);
     top: 35%;
     left: 35%;
 }
@@ -79,7 +80,7 @@
 }
 
 .subTitle {
-    font-size: 36px;
+    font-size: var(--sub-title-size);
     line-height: 32px;
     font-weight: 600;
     margin-bottom: 16px;
