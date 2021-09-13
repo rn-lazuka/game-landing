@@ -81,7 +81,7 @@
 
 .subTitle {
     font-size: var(--sub-title-size);
-    line-height: 32px;
+    line-height: var(--sub-title-size);
     font-weight: 600;
     margin-bottom: 16px;
 }
@@ -95,4 +95,22 @@
 .lastSectionImg {
     width: 90%;
     margin-bottom: 40px;
+}
+
+@media screen and (max-width: 700px) {
+    .titleBackground {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .title {
+        left: 30%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .title {
+        left: 33%;
+    }
 }

@@ -3,6 +3,9 @@ import styles from './Header.module.css'
 import logo from '../../assets/Header/Logo.png'
 import twitter from '../../assets/Header/Twitter.png'
 import discord from '../../assets/Header/Discord.png'
+import about from '../../assets/Header/About.png';
+import road from '../../assets/Header/Roadmap.png';
+import docs from '../../assets/Header/Docs.png';
 
 const Header: FC = () => {
   return (
@@ -12,9 +15,15 @@ const Header: FC = () => {
           <a href="#">
             <img src={logo} alt="logo" className={styles.logo} />
           </a>
-          <button className={styles.aboutBtn} />
-          <button className={styles.roadBtn} />
-          <button className={styles.docsBtn} />
+          <button className={styles.btn}>
+            <img src={about} alt="about" />
+          </button>
+          <button className={styles.btn}>
+            <img src={road} alt="road" />
+          </button>
+          <button className={styles.btn}>
+            <img src={docs} alt="road" />
+          </button>
         </div>
         <div>
           <a href="#">

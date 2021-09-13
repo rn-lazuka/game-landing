@@ -96,13 +96,13 @@
     font-weight: 600;
     margin-bottom: 40px;
     z-index: 2;
-    margin-right: 36px;
+    margin-right: var(--about-text-margin);
 }
 
 .leftSubTitle {
     composes: rightSubTitle;
     padding-top: 60px;
-    margin-left: 36px;
+    margin-left: var(--about-text-margin);
     margin-right: 0;
 }
 
@@ -117,7 +117,7 @@
 .leftSubText {
     composes: rightSubText;
     margin-right: 0;
-    margin-left: 36px;
+    margin-left: var(--about-text-margin);
 }
 
 .centeredImg {
@@ -130,6 +130,12 @@
     margin-bottom: 40px;
 }
 
+@media screen  and (max-width: 1100px) {
+    .centeredImg {
+        width: 100%;
+    }
+}
+
 @media screen  and (max-width: 700px) {
     .titleWrap {
         min-height: 300px;
@@ -138,6 +144,10 @@
     .titleBackground {
         width: 90%;
         left: 5%;
+    }
+    .textContainer{
+        min-height: 430px;
+        margin-bottom: 16px;
     }
 }
 
