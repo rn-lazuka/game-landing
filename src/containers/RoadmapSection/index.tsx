@@ -1,108 +1,135 @@
-import React from 'react';
-import styles from './AboutSection.module.css';
-import titleBack from '../../assets/About/titleBack.png';
-import recruiting from '../../assets/About/recruiting.png';
-import recruitingText from '../../assets/About/recruitingText.png';
-import equippingText from '../../assets/About/equippingText.png';
-import equipping from '../../assets/About/equipping.png';
-import missionsSending from '../../assets/About/missionsSending.png';
-import missionsSendingText from '../../assets/About/missionsSendingText.png';
-import loot from '../../assets/About/loot.png';
-import lootText from '../../assets/About/lootText.png';
-import transmutation from '../../assets/About/transmutation.png';
-import transmutationText from '../../assets/About/transmutationText.png';
-import transmute from '../../assets/About/transmute.png';
-import decoration from '../../assets/About/decoration.png';
+import React from 'react'
+import styles from './RoadmapSection.module.css'
+import roadTitle from '../../assets/Roadmap/roadTitle.png'
+import roadDecor from '../../assets/Roadmap/roadDecor.png'
+import worldBuilding from '../../assets/Roadmap/worldBuilding1.png'
+import arrow from '../../assets/Roadmap/arrow.png'
+import presaleNFT from '../../assets/Roadmap/presaleNFT1.png'
+import airdrop from '../../assets/Roadmap/airdrop1.png'
+import tokenomics from '../../assets/Roadmap/tokenomics1.png'
+import gameLaunch from '../../assets/Roadmap/gameLaunch1.png'
+import upgrade from '../../assets/Roadmap/upgrade1.png'
 
-const AboutSection = () => {
-    return (
-        <div className={styles.sectionContainer}>
-            <div className={styles.sectionWrapper}>
-                <div className={styles.titleWrap}>
-                    <img src={titleBack} alt="title decoration" className={styles.titleBackground}/>
-                    <span className={styles.title}>
-                        About
-                    </span>
-                </div>
-
-                <div className={styles.textContainer}>
-                    <img src={recruiting} alt="recruiting" className={styles.sideImg}/>
-                    <div className={styles.rightTextWrap}>
-                        <img src={recruitingText} alt="recruiting background" className={styles.textBackground}/>
-                        <span className={styles.rightSubTitle}>
-                        Recruiting pawns
-                    </span>
-                        <span className={styles.rightSubText}>
-                            As a guild master, you don't personally get your hands dirty in the field.
-                            For that, you have a roster of pawns - archers, warriors, and mages - to do your bidding.
-                        </span>
-                    </div>
-                </div>
-
-                <div className={styles.textContainer}>
-                    <div className={styles.leftTextWrap}>
-                        <img src={equippingText} alt="equipping background" className={styles.textBackground}/>
-                        <span className={styles.leftSubTitle}>
-                        Equipping
-                    </span>
-                        <span className={styles.leftSubText}>Along with payments,
-                            missions will also sometimes reward items which can be equipped to your pawns. However,
-                            each item is unique and can vary greatly in power and rarity.
-                        </span>
-                    </div>
-                    <img src={equipping} alt="equipping" className={styles.sideImg}/>
-                </div>
-
-                <div className={styles.textContainer}>
-                    <img src={missionsSending} alt="missions sending" className={styles.sideImg}/>
-                    <div className={styles.rightTextWrap}>
-                        <img src={missionsSendingText} alt="missions background" className={styles.textBackground}/>
-                        <span className={styles.rightSubTitle}>
-                        Sending on missions
-                    </span>
-                        <span className={styles.rightSubText}>
-                            Starting with a selection of missions, and you'll obtain new missions simply by completing the current ones.
-                            Each mission will require different expertise, calling upon mages for certain quests, and archers for another.
-                        </span>
-                    </div>
-                </div>
-
-                <div className={styles.textContainer}>
-                    <div className={styles.leftTextWrap}>
-                        <img src={lootText} alt="loot background" className={styles.textBackground}/>
-                        <span className={styles.leftSubTitle}>
-                        Loot
-                    </span>
-                        <span className={styles.leftSubText}>
-                            Depending on the rarity of the mission, and it's difficulty:
-                            you'll receive items and gold to match. This will be the primary income source for your guild,
-                            and also the primary way of obtaining new items to strengthen your pawns.
-                        </span>
-                    </div>
-                    <img src={loot} alt="loot" className={styles.sideImg}/>
-                </div>
-
-                <div className={styles.textContainer}>
-                    <img src={transmutation} alt="transmutation sending" className={styles.sideImg}/>
-                    <div className={styles.rightTextWrap}>
-                        <img src={transmutationText} alt="transmutation background" className={styles.textBackground}/>
-                        <span className={styles.rightSubTitle}>
-                        Transmutation
-                    </span>
-                        <span className={styles.rightSubText}>
-                            For the more established guild master, you can try your luck with the transmutation experts.
-                            They dabble in the little-understood art of transmuting items (or even pawns) into a superior variant,
-                            but everything has a cost!
-                        </span>
-                    </div>
-                </div>
-
-                <img src={transmute} alt="transmute" className={styles.centeredImg}/>
-                <img src={decoration} alt="decoration" className={styles.lastSectionImg}/>
-
-            </div>
+const RoadmapSection = () => {
+  return (
+    <div className={styles.sectionContainer}>
+      <div className={styles.sectionWrapper}>
+        <div className={styles.titleWrap}>
+          <img src={roadTitle} alt="title decoration" className={styles.titleBackground} />
+          <span className={styles.title}>
+            Road map
+          </span>
         </div>
-    );
+
+        <div className={styles.descriptionBox}>
+          <div className={styles.imgContainer}>
+            <img src={worldBuilding} alt="worldBuilding" className={styles.leftImg} />
+            <img src={arrow} alt="arrow" className={styles.arrowImg} />
+          </div>
+          <div className={styles.descriptionText}>
+            <span className={styles.subTitle}>
+              Worldbuilding and development
+            </span>
+            <span className={styles.text}>
+              Upon developing the idea of Sanctum, we quickly organized and began building.
+              We really wanted to do something that uniquely incorporates defi -
+              but also something that we can build a truly fun game around.
+            </span>
+          </div>
+        </div>
+
+        <div className={styles.descriptionBox}>
+          <div className={styles.imgContainer}>
+            <img src={presaleNFT} alt="presale NFT" className={styles.leftImg} />
+            <img src={arrow} alt="arrow" className={styles.arrowImg} />
+          </div>
+          <div className={styles.descriptionText}>
+            <span className={styles.subTitle}>
+              NFT Presale
+            </span>
+            <span className={styles.text}>
+              To recoup development costs, pay for future development,
+              and seed liquidity: we will be raising funds through an NFT drop.
+              Information on the metrics and method will be released beforehand.
+            </span>
+          </div>
+        </div>
+
+        <div className={styles.descriptionBox}>
+          <div className={styles.imgContainer}>
+            <img src={airdrop} alt="airdrop" className={styles.leftImg} />
+            <img src={arrow} alt="arrow" className={styles.arrowImg} />
+          </div>
+          <div className={styles.descriptionText}>
+            <span className={styles.subTitle}>
+              Token listing & airdrop
+            </span>
+            <span className={styles.text}>
+              We will airdrop initial token supply across all NFT holders,
+              and seed liquidity before the game launch.
+              We want to be sure to reward early supports,
+              while still not giving away too much of the supply right away.
+            </span>
+          </div>
+        </div>
+
+        <div className={styles.descriptionBox}>
+          <div className={styles.imgContainer}>
+            <img src={tokenomics} alt="tokenomics" className={styles.leftImg} />
+            <img src={arrow} alt="arrow" className={styles.arrowImg} />
+          </div>
+          <div className={styles.descriptionText}>
+            <span className={styles.subTitle}>
+              Tokenomics reveal
+            </span>
+            <span className={styles.text}>
+              A huge part of why we decided to build Sanctum was an idea for the game economy that we hadn’t seen executed before.
+              We will reveal this just before launch, and are confident it will be well received!
+            </span>
+          </div>
+        </div>
+
+        <div className={styles.descriptionBox}>
+          <div className={styles.imgContainer}>
+            <img src={gameLaunch} alt="game Launch" className={styles.leftImg} />
+            <img src={arrow} alt="arrow" className={styles.arrowImg} />
+          </div>
+          <div className={styles.descriptionText}>
+            <span className={styles.subTitle}>
+              Game launch
+            </span>
+            <span className={styles.text}>
+              Shortly after the reveal, and airdrop: we will launch the game for everyone to play.
+              There will be plenty of information circulating on how to play beforehand,
+              but also some mysteries to discover within.
+            </span>
+          </div>
+        </div>
+
+        <div className={styles.descriptionBox}>
+          <div className={styles.imgContainer}>
+            <img src={upgrade} alt="upgrade" className={styles.leftImg} />
+          </div>
+          <div className={styles.descriptionText}>
+            <span className={styles.subTitle}>
+              Future game updates
+            </span>
+            <span className={styles.text}>
+              The sky is the limit with blockchain gaming, and we hope to be building this game for years to come.
+              We have many ideas internally on the direction of the game,
+              but also we plan to engage the community and consider their ideas as much as possible.
+              After the initial launch, we will immediately continue development on the combat system of the game,
+              steadily releasing updates for players, all culminating in the first major update: adding PvP.
+              After that, there’s so much we can do: housing, city management / ownership, PvE...
+            </span>
+          </div>
+        </div>
+
+        <img src={roadDecor} alt="decoration" className={styles.lastSectionImg} />
+
+      </div>
+    </div>
+  )
 }
 
-export default AboutSection;
+export default RoadmapSection

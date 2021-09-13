@@ -1,15 +1,22 @@
-.sectionContainer{
+@import '../../components/colors/variables.css';
+
+.sectionContainer {
     width: 100%;
-    background: rgb(133,76,48);
-    background: linear-gradient(180deg, rgba(133,76,48,1) 0%, rgba(169,122,89,1) 100%);
+    background: rgb(133, 76, 48);
+    background: linear-gradient(180deg, rgba(133, 76, 48, 1) 0%, rgba(169, 122, 89, 1) 100%);
     display: flex;
     justify-content: center;
+    box-sizing: border-box;
 }
+
 .sectionWrapper {
+    border-top: solid 4px var(--divider-color);
+    border-bottom: solid 4px var(--border-color);
+    padding-bottom: 4px;
     display: flex;
     justify-content: center;
-    max-width: 40%;
-    width: 40%;
+    max-width: var(--section-max-width);
+    width: var(--section-width);
 }
 
 .sectionWrapper img {

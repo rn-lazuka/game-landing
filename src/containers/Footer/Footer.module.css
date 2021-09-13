@@ -1,66 +1,36 @@
 @import '../../components/colors/variables.css';
 
 .container {
-    position: fixed;
     width: 100%;
-    background-color: var(--header-back-color);
-    height: var(--header-height);
+    padding-top: 2px;
+    box-sizing: border-box;
+    background-color: var(--footer-back-color);
+    height: var(--footer-height);
     display: flex;
+    justify-content: center;
     align-items: center;
-    top: 0;
-    justify-content: space-between;
+    flex-wrap: wrap;
     border-top: solid 4px var(--border-color);
     border-bottom: solid 4px var(--border-color);
-    padding-left: 28px;
-    box-sizing: border-box;
-    z-index: 99;
 }
 
-.leftWrapper {
+.divider {
+    align-self: flex-start;
+    width: 100%;
+    height: 2px;
+    background: var(--footer-divider-color);
+}
+
+.footerWrapper {
+    width: var(--header-width);
+    max-width: var(--header-max-width);
+    height: 100%;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
-
-.logo {
-    height: 76px;
-    width: 72px;
-    margin-right: 32px;
-}
-
-.btn {
-    width: 160px;
-    height: 54px;
-    border: none;
-    cursor: pointer;
-    margin-right: 16px;
-}
-
-.btn:active {
-    width: 158px;
-    height: 52px;
-    margin-top: 2px;
-    margin-right: 18px;
-}
-
-.aboutBtn {
-    composes: btn;
-    background: no-repeat center/100% url('../../assets/Header/About.png');
-}
-
-.roadBtn {
-    composes: btn;
-    background: no-repeat center/100% url('../../assets/Header/Roadmap.png');
-}
-
-.docsBtn {
-    composes: btn;
-    background: no-repeat center/100% url('../../assets/Header/Docs.png');
-}
-
-.socialLink {
-    width: 64px;
-    height: 64px;
-    cursor: pointer;
-    margin-right: 16px;
+.container img {
+    width: 45%;
+    height: 60%;
 }

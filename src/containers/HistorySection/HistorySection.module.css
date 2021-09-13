@@ -1,13 +1,17 @@
+@import '../../components/colors/variables.css';
+
 .sectionContainer {
     width: 100%;
     background: #A97A59;
     display: flex;
     justify-content: center;
+    box-sizing: border-box;
 }
 
 .sectionWrapper {
-    max-width: 40%;
-    width: 40%;
+    border-top: solid 4px var(--divider-color);
+    max-width: var(--section-max-width);
+    width: var(--section-width);
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;

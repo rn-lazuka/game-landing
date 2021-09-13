@@ -1,1 +1,27 @@
-$main-back-color:#854C30;
+:root {
+    --header-back-color: #854C30;
+    --divider-color: #140C1C;
+    --border-color: #442434;
+    --footer-back-color: #854C30;
+    --footer-divider-color: #CF8D46;
+    --roadmap-back-color:#A97A59;
+
+    --header-height: 150px;
+    --header-width: 1000px;
+    --header-max-width: 1000px;
+    --nav-btn-width: 180px;
+    --section-width: 1000px;
+    --section-max-width: 1000px;
+    --about-text-width: 412px;
+    --about-text-margin: 16px;
+    --footer-height: 210px;
+}
+
+@media screen and (max-width: 1600px) {
+    :root {
+        --header-height: 80px;
+        --nav-btn-width: 150px;
+        --section-width: 1000px;
+        --footer-height: 100px;
+    }
+}

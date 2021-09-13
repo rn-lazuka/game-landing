@@ -1,17 +1,19 @@
+@import '../../components/colors/variables.css';
+
 .sectionContainer {
     width: 100%;
     background: rgb(169, 122, 89);
-    background: linear-gradient(180deg, rgba(169, 122, 89, 1) 2%, rgba(186, 138, 103, 1) 7%, rgba(188, 140, 105, 1) 9%, rgba(203, 153, 117, 1) 19%, rgba(188, 140, 105, 1) 94%, rgba(169, 122, 89, 1) 100%);
+    background: linear-gradient(180deg, rgba(169, 122, 89, 1) 2%, rgba(186, 138, 103, 1) 7%, rgba(188, 140, 105, 1) 9%, rgba(203, 153, 117, 1) 19%);
     display: flex;
     justify-content: center;
     padding-top: 44px;
+    box-sizing: border-box;
 }
 
 .sectionWrapper {
-    max-width: 40%;
-    width: 40%;
+    max-width: var(--section-max-width);
+    width: var(--section-width);
     display: flex;
-    min-height: 200vh;
     flex-wrap: wrap;
     flex-direction: column;
     box-sizing: border-box;
@@ -22,19 +24,25 @@
     width: 100%;
     position: relative;
     height: max-content;
+    min-height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .titleBackground {
     width: 80%;
     height: max-content;
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 10%;
+    right: 0;
+    bottom: 0;
 }
 
 .title {
-    position: absolute;
-    display: block;
     z-index: 4;
-    font-size: 54px;
+    font-size: 70px;
     top: 35%;
     left: 40%;
 }
@@ -44,6 +52,11 @@
     width: 100%;
     align-items: center;
     min-height: 530px;
+}
+
+.leftTextContainer{
+    composes: textContainer;
+    min-height: 400px;
 }
 
 .sideImg {
@@ -72,10 +85,6 @@
     width: 100%;
 }
 
-.leftTextContainer {
-    composes: rightTextWrap;
-}
-
 
 .rightSubTitle {
     padding-top: 100px;
@@ -89,6 +98,7 @@
 
 .leftSubTitle{
     composes: rightSubTitle;
+    padding-top: 60px;
     margin-left: 36px;
     margin-right: 0;
 }
@@ -96,13 +106,23 @@
 .rightSubText {
     display: block;
     font-size: 26px;
-    max-width: 350px;
+    max-width: var(--about-text-width);
     z-index: 2;
-    margin-right: 36px;
+    margin-right: var(--about-text-margin);
 }
 
 .leftSubText{
     composes: rightSubText;
     margin-right: 0;
     margin-left: 36px;
+}
+
+.centeredImg {
+    width: 80%;
+    margin-bottom: 80px;
+}
+
+.lastSectionImg {
+    width: 90%;
+    margin-bottom: 40px;
 }

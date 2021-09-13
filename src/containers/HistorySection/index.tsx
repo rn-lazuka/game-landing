@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './SecondSection.module.css'
+import styles from './HistorySection.module.css'
 import hunter from '../../assets/History/Hunter.png'
 import bandit from '../../assets/History/Bandit.png'
 import girl from '../../assets/History/Girl.png'
@@ -8,7 +8,7 @@ import sprites from '../../assets/History/Sprites.png'
 import footerDeco from '../../assets/History/footerDeco.png'
 
 
-const SecondSection = () => {
+const HistorySection = () => {
     return (
         <div className={styles.sectionContainer}>
             <div className={styles.sectionWrapper}>
@@ -41,4 +41,4 @@ const SecondSection = () => {
     );
 }
 
-export default SecondSection;
+export default HistorySection;

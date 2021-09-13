@@ -2,11 +2,12 @@
 
 .sectionContainer {
     width: 100%;
-    background: rgb(169, 122, 89);
-    background: linear-gradient(180deg, rgba(169, 122, 89, 1) 2%, rgba(186, 138, 103, 1) 7%, rgba(188, 140, 105, 1) 9%, rgba(203, 153, 117, 1) 19%);
+    background: rgb(203, 153, 117);
+    background: linear-gradient(180deg, rgba(203, 153, 117, 1) 0%, rgba(195, 146, 111, 1) 2%, rgba(186, 138, 103, 1) 4%, rgba(169, 122, 89, 1) 11%);
     display: flex;
     justify-content: center;
     padding-top: 44px;
+    box-sizing: border-box;
 }
 
 .sectionWrapper {
@@ -37,82 +38,57 @@
     z-index: 4;
     font-size: 54px;
     top: 35%;
-    left: 40%;
+    left: 35%;
 }
 
-.textContainer {
+.descriptionBox {
+
+    height: max-content;
     display: flex;
     width: 100%;
-    align-items: center;
-    min-height: 530px;
 }
 
-.leftTextContainer{
-    composes: textContainer;
-    min-height: 400px;
-}
 
-.sideImg {
-    width: 35%;
-}
-
-.rightTextWrap {
-    width: 65%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    text-align: right;
+.imgContainer {
     position: relative;
-    align-items: flex-end;
-}
-.leftTextWrap {
-    composes: rightTextWrap;
-    text-align: left;
-    align-items: flex-start;
+    width: 40%;
+    min-height: 280px;
+    display: flex;
+    justify-content: center;
 }
 
-.textBackground {
+.leftImg {
+    margin-top: 20px;
+    margin-bottom: auto;
+    width: 280px;
+}
+
+.arrowImg {
     position: absolute;
+    bottom: -40px;
+    left: 50%;
     z-index: 1;
-    width: 100%;
 }
 
+.descriptionText {
+    width: 60%;
+    max-width: 400px;
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+}
 
-.rightSubTitle {
-    padding-top: 100px;
-    display: block;
-    font-size: 40px;
+.subTitle {
+    font-size: 36px;
+    line-height: 32px;
     font-weight: 600;
-    margin-bottom: 40px;
-    z-index: 2;
-    margin-right: 36px;
+    margin-bottom: 16px;
 }
 
-.leftSubTitle{
-    composes: rightSubTitle;
-    padding-top: 60px;
-    margin-left: 36px;
-    margin-right: 0;
-}
-
-.rightSubText {
-    display: block;
-    font-size: 26px;
-    max-width: var(--about-text-width);
-    z-index: 2;
-    margin-right: var(--about-text-margin);
-}
-
-.leftSubText{
-    composes: rightSubText;
-    margin-right: 0;
-    margin-left: 36px;
-}
-
-.centeredImg {
-    width: 80%;
-    margin-bottom: 80px;
+.text {
+    font-size: 25px;
+    line-height: 28px;
+    margin-bottom: 42px;
 }
 
 .lastSectionImg {
