@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/game-landing/static/css/main.4fcb9993.chunk.css",
-    "main.js": "/game-landing/static/js/main.18562775.chunk.js",
-    "main.js.map": "/game-landing/static/js/main.18562775.chunk.js.map",
+    "main.css": "/game-landing/static/css/main.d881aa72.chunk.css",
+    "main.js": "/game-landing/static/js/main.8866a0b7.chunk.js",
+    "main.js.map": "/game-landing/static/js/main.8866a0b7.chunk.js.map",
     "runtime-main.js": "/game-landing/static/js/runtime-main.f7c0d977.js",
     "runtime-main.js.map": "/game-landing/static/js/runtime-main.f7c0d977.js.map",
     "static/js/2.3f1699b4.chunk.js": "/game-landing/static/js/2.3f1699b4.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.22292499.chunk.js": "/game-landing/static/js/3.22292499.chunk.js",
     "static/js/3.22292499.chunk.js.map": "/game-landing/static/js/3.22292499.chunk.js.map",
     "index.html": "/game-landing/index.html",
-    "static/css/main.4fcb9993.chunk.css.map": "/game-landing/static/css/main.4fcb9993.chunk.css.map",
+    "static/css/main.d881aa72.chunk.css.map": "/game-landing/static/css/main.d881aa72.chunk.css.map",
     "static/js/2.3f1699b4.chunk.js.LICENSE.txt": "/game-landing/static/js/2.3f1699b4.chunk.js.LICENSE.txt",
     "static/media/Banner.af635a20.png": "/game-landing/static/media/Banner.af635a20.png",
     "static/media/Sprites.27a3ce1f.png": "/game-landing/static/media/Sprites.27a3ce1f.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.f7c0d977.js",
     "static/js/2.3f1699b4.chunk.js",
-    "static/css/main.4fcb9993.chunk.css",
-    "static/js/main.18562775.chunk.js"
+    "static/css/main.d881aa72.chunk.css",
+    "static/js/main.8866a0b7.chunk.js"
   ]
 }
