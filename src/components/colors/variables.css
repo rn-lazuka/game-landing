@@ -8,7 +8,7 @@
 
     --title-size: 70px;
     --sub-title-size:54px;
-    --header-height: 150px;
+    --header-height: 120px;
     --header-width: 1000px;
     --header-max-width: 1000px;
     --nav-btn-width: 180px;
@@ -16,7 +16,7 @@
     --section-max-width: 1000px;
     --about-text-width: 412px;
     --about-text-margin: 16px;
-    --footer-height: 210px;
+    --footer-height: 150px;
 }
 
 @media screen and (max-width: 1600px) {

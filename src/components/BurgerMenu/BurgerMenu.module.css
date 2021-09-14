@@ -1,0 +1,69 @@
+@import '../../components/colors/variables.css';
+
+.container {
+
+}
+
+.backdrop {
+    position: fixed;
+    z-index: 999999;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(1px);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0
+}
+
+.modal {
+    position: relative;
+    box-sizing: border-box;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 12px;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+}
+
+.containerBackground{
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.header_modal {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.closeIcon {
+    padding: 10px;
+    background: transparent;
+    margin: 10px 10px 0 0;
+    border-radius: 50%;
+    border: solid 2px #140C1C;
+}
+
+.opened {
+    opacity: 1;
+}
+
+.close {
+    transform: translate(101%, 100%)
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navBtn {
+white-space: nowrap;
+text-align: start;
+}

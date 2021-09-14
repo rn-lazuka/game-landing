@@ -25,7 +25,6 @@
 }
 
 .navWrapper a {
-    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
     -webkit-tap-highlight-color: transparent;
 }
 
@@ -40,7 +39,6 @@
     width: 72px;
     margin-right: 32px;
     cursor: pointer;
-    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
     -webkit-tap-highlight-color: transparent;
 }
 
@@ -51,11 +49,25 @@
     cursor: pointer;
     margin-right: 16px;
     padding: 0;
-    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
     -webkit-tap-highlight-color: transparent;
 }
 
 .btn img {
+    height: 100%;
+    width: 100%;
+}
+
+.burgerBtn{
+    border: none;
+    cursor: pointer;
+    height: 48px;
+    width: 48px;
+    padding: 0;
+    margin-right: 16px;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.burgerBtn img{
     height: 100%;
     width: 100%;
 }
@@ -94,6 +106,10 @@
 
 @media screen and (max-width: 860px) {
     .btn {
+        display: none;
+    }
+
+    .linkWrapper {
         display: none;
     }
 }
