@@ -58,6 +58,7 @@
 }
 
 .burgerBtn{
+    display: none;
     border: none;
     cursor: pointer;
     height: 48px;
@@ -105,6 +106,9 @@
 }
 
 @media screen and (max-width: 860px) {
+    .burgerBtn {
+        display: flex;
+    }
     .btn {
         display: none;
     }
