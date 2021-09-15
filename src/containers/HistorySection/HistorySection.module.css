@@ -2,7 +2,8 @@
 
 .sectionContainer {
     width: 100%;
-    background: #A97A59;
+    background: rgb(169,122,89);
+    background: linear-gradient(180deg, rgba(169,122,89,1) 96%, rgba(182,134,100,1) 98%, rgba(203,153,117,1) 100%);
     display: flex;
     justify-content: center;
     box-sizing: border-box;
@@ -19,6 +20,7 @@
     box-sizing: border-box;
     align-items: center;
     padding-bottom: 44px;
+    border-bottom: solid 4px var(--border-color);
 }
 
 .titleWrap {
@@ -42,7 +44,7 @@
     position: absolute;
     background-size: contain;
     z-index: 1;
-    width: 90%;
+    width: 70%;
     top: auto;
 }
 
@@ -103,15 +105,17 @@
     width: 44%;
 }
 
+@media screen and (max-width: 1100px) {
+    .titleDecoration{
+        width: 60%;
+    }
+}
 @media screen and (max-width: 700px) {
     .titleWrap{
         min-height: 330px;
     }
-}
-@media screen and (max-width: 700px) {
     .titleDecoration {
         width: 90%;
-        left: 5%;
     }
     .textBackground{
         height: 380px;

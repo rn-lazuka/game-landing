@@ -2,16 +2,15 @@
 
 .sectionContainer {
     width: 100%;
-    background: rgb(203, 153, 117);
-    background: linear-gradient(180deg, rgba(203, 153, 117, 1) 0%, rgba(195, 146, 111, 1) 2%, rgba(186, 138, 103, 1) 4%, rgba(169, 122, 89, 1) 11%);
+    background: rgb(169,122,89);
     display: flex;
     justify-content: center;
-    padding-top: 44px;
     box-sizing: border-box;
     margin: -1px;
 }
 
 .sectionWrapper {
+    padding-top: 44px;
     max-width: var(--section-max-width);
     width: var(--section-width);
     display: flex;
@@ -19,27 +18,38 @@
     flex-direction: column;
     box-sizing: border-box;
     align-items: center;
+    border-top: solid 3px var(--divider-color);
 }
 
 .titleWrap {
     width: 100%;
     position: relative;
     height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 370px;
 }
 
 .titleBackground {
-    width: 80%;
-    height: max-content;
-    position: relative;
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.titleDecoration {
+    position: absolute;
+    background-size: contain;
+    z-index: 1;
+    width: 60%;
+    top: auto;
 }
 
 .title {
-    position: absolute;
-    display: block;
     z-index: 4;
     font-size: var(--title-size);
-    top: 35%;
-    left: 35%;
+    margin-top: 54px;
 }
 
 .descriptionBox {
@@ -113,16 +123,19 @@
     }
 }
 
-@media screen and (max-width: 700px) {
-    .titleBackground {
-        width: 100%;
-    }
-}
-
 @media screen and (max-width: 600px) {
-    .descriptionText {
-    width: 90%;
+    .title {
+        margin-top: 44px;
     }
+
+    .titleDecoration {
+        width: 70%;
+    }
+
+    .descriptionText {
+        width: 90%;
+    }
+
     .arrowImg {
         bottom: -20px;
     }
@@ -138,9 +151,20 @@
     .arrowImg {
         bottom: 0;
     }
+
+    .titleDecoration {
+        width: 80%;
+    }
 }
+
 @media screen and (max-width: 450px) {
     .title {
         left: 33%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .title {
+        margin-top: 32px;
     }
 }

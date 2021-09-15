@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './RoadmapSection.module.css'
-import roadTitle from '../../assets/Roadmap/roadTitle.png'
+import roadTitle from '../../assets/Roadmap/titleBg.png'
+import titleDecor from '../../assets/Roadmap/titleDecor.png'
 import roadDecor from '../../assets/Roadmap/roadDecor.png'
 import worldBuilding from '../../assets/Roadmap/worldBuilding.png'
 import arrow from '../../assets/Roadmap/arrow.png'
@@ -15,7 +16,8 @@ const RoadmapSection = () => {
     <div className={styles.sectionContainer}>
       <div className={styles.sectionWrapper}>
         <div className={styles.titleWrap}>
-          <img src={roadTitle} alt="title decoration" className={styles.titleBackground} />
+          <img src={roadTitle} alt="title background" className={styles.titleBackground} />
+          <img src={titleDecor} alt="title decoration" className={styles.titleDecoration} />
           <span className={styles.title}>
             Road map
           </span>

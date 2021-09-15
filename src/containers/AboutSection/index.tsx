@@ -13,13 +13,17 @@ import transmutation from '../../assets/About/transmutation.png';
 import transmutationText from '../../assets/About/transmutationText.png';
 import transmute from '../../assets/About/transmute.png';
 import decoration from '../../assets/About/decoration.png';
+import textBackground from '../../assets/About/aboutTitleBG.png';
+import titleDecor from '../../assets/About/aboutDecor.png';
+
 
 const AboutSection = () => {
     return (
         <div className={styles.sectionContainer}>
             <div className={styles.sectionWrapper}>
                 <div className={styles.titleWrap}>
-                    <img src={titleBack} alt="title decoration" className={styles.titleBackground}/>
+                    <img src={textBackground} alt="title background" className={styles.titleBackground} />
+                    <img src={titleDecor} alt="decoration" className={styles.titleDecoration} />
                     <span className={styles.title}>
                         About
                     </span>
