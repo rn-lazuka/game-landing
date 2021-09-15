@@ -25,29 +25,25 @@
     width: 100%;
     position: relative;
     height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 370px;
 }
 
 .titleBackground {
-    background-image: url("../../assets/History/historyTitleBg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
+    position: absolute;
+    object-fit: cover;
     width: 100%;
-    position: relative;
-    height: 240px;
+    height: 100%;
 }
 
 .titleDecoration {
-    background-image: url("../../assets/History/titleDecoration.png");
-    background-repeat: no-repeat;
     position: absolute;
     background-size: contain;
     z-index: 1;
-    width: 70%;
-    height: 200px;
-    top: 30px;
-    left: 15%
+    width: 90%;
+    top: auto;
 }
 
 .title {
@@ -55,8 +51,6 @@
     display: block;
     z-index: 4;
     font-size: var(--title-size);
-    top: 38%;
-    left: 33%;
 }
 
 .avatarsWrapper {
@@ -78,7 +72,11 @@
 
 
 .textBackground {
-    composes: titleBackground;
+    width: 100%;
+    position: relative;
+    min-height: 355px;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url("../../assets/History/textBackground.png");
 }
 
@@ -105,20 +103,11 @@
     width: 44%;
 }
 
-
-@media screen and (max-width: 1350px) {
-    .title {
-        left: 38%;
+@media screen and (max-width: 700px) {
+    .titleWrap{
+        min-height: 330px;
     }
 }
-
-@media screen and (max-width: 800px) {
-    .title {
-        top: 38%;
-        left: 33%;
-    }
-}
-
 @media screen and (max-width: 700px) {
     .titleDecoration {
         width: 90%;
@@ -129,36 +118,13 @@
     }
 }
 
-@media screen and (max-width: 600px) {
-    .title {
-        top: 34%;
-        left: 28%;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .title {
-        top: 30%;
-        left: 25%;
-    }
-}
-
 @media screen and (max-width: 450px) {
-    .title {
-        top: 30%;
-        left: 20%;
-    }
     .textBackground{
         height: 440px;
     }
 }
 
 @media screen and (max-width: 390px) {
-    .title {
-        top: 27%;
-        left: 24%;
-    }
-
     .textBackground{
         height: 500px;
     }

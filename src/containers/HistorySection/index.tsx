@@ -6,6 +6,8 @@ import girl from '../../assets/History/Girl.png'
 import knight from '../../assets/History/Knight.png'
 import sprites from '../../assets/History/Sprites.png'
 import footerDeco from '../../assets/History/footerDeco.png'
+import textBackground from "../../assets/History/textBackground.png";
+import titleDecor from "../../assets/History/titleDecoration.png";
 
 
 const HistorySection = () => {
@@ -13,8 +15,10 @@ const HistorySection = () => {
         <div className={styles.sectionContainer}>
             <div className={styles.sectionWrapper}>
                 <div className={styles.titleWrap}>
-                    <div className={styles.titleBackground}/>
-                    <div className={styles.titleDecoration}/>
+                    <img src={textBackground} alt="title background" className={styles.titleBackground} />
+                    <img src={titleDecor} alt="decoration" className={styles.titleDecoration} />
+                    {/*<div className={styles.titleBackground}/>*/}
+                    {/*<div className={styles.titleDecoration}/>*/}
                     <span className={styles.title}>
                 Write history
             </span>
