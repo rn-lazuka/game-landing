@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/game-landing/static/css/main.d881aa72.chunk.css",
-    "main.js": "/game-landing/static/js/main.8866a0b7.chunk.js",
-    "main.js.map": "/game-landing/static/js/main.8866a0b7.chunk.js.map",
-    "runtime-main.js": "/game-landing/static/js/runtime-main.f7c0d977.js",
-    "runtime-main.js.map": "/game-landing/static/js/runtime-main.f7c0d977.js.map",
-    "static/js/2.3f1699b4.chunk.js": "/game-landing/static/js/2.3f1699b4.chunk.js",
-    "static/js/2.3f1699b4.chunk.js.map": "/game-landing/static/js/2.3f1699b4.chunk.js.map",
-    "static/js/3.22292499.chunk.js": "/game-landing/static/js/3.22292499.chunk.js",
-    "static/js/3.22292499.chunk.js.map": "/game-landing/static/js/3.22292499.chunk.js.map",
+    "main.css": "/game-landing/static/css/main.d1bd0e0c.chunk.css",
+    "main.js": "/game-landing/static/js/main.f32f591a.chunk.js",
+    "main.js.map": "/game-landing/static/js/main.f32f591a.chunk.js.map",
+    "runtime-main.js": "/game-landing/static/js/runtime-main.f10013e7.js",
+    "runtime-main.js.map": "/game-landing/static/js/runtime-main.f10013e7.js.map",
+    "static/js/2.40d1fd20.chunk.js": "/game-landing/static/js/2.40d1fd20.chunk.js",
+    "static/js/2.40d1fd20.chunk.js.map": "/game-landing/static/js/2.40d1fd20.chunk.js.map",
+    "static/js/3.975020a7.chunk.js": "/game-landing/static/js/3.975020a7.chunk.js",
+    "static/js/3.975020a7.chunk.js.map": "/game-landing/static/js/3.975020a7.chunk.js.map",
     "index.html": "/game-landing/index.html",
-    "static/css/main.d881aa72.chunk.css.map": "/game-landing/static/css/main.d881aa72.chunk.css.map",
-    "static/js/2.3f1699b4.chunk.js.LICENSE.txt": "/game-landing/static/js/2.3f1699b4.chunk.js.LICENSE.txt",
-    "static/media/Banner.af635a20.png": "/game-landing/static/media/Banner.af635a20.png",
+    "static/css/main.d1bd0e0c.chunk.css.map": "/game-landing/static/css/main.d1bd0e0c.chunk.css.map",
+    "static/js/2.40d1fd20.chunk.js.LICENSE.txt": "/game-landing/static/js/2.40d1fd20.chunk.js.LICENSE.txt",
     "static/media/Sprites.27a3ce1f.png": "/game-landing/static/media/Sprites.27a3ce1f.png",
     "static/media/roadTitle.f12db069.png": "/game-landing/static/media/roadTitle.f12db069.png",
     "static/media/HistorySection.module.css": "/game-landing/static/media/textBackground.b9268d15.png",
+    "static/media/town.fa5bd64f.gif": "/game-landing/static/media/town.fa5bd64f.gif",
     "static/media/transmutation.6275c3b7.png": "/game-landing/static/media/transmutation.6275c3b7.png",
     "static/media/transmute.04b3c5d9.png": "/game-landing/static/media/transmute.04b3c5d9.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f7c0d977.js",
-    "static/js/2.3f1699b4.chunk.js",
-    "static/css/main.d881aa72.chunk.css",
-    "static/js/main.8866a0b7.chunk.js"
+    "static/js/runtime-main.f10013e7.js",
+    "static/js/2.40d1fd20.chunk.js",
+    "static/css/main.d1bd0e0c.chunk.css",
+    "static/js/main.f32f591a.chunk.js"
   ]
 }
