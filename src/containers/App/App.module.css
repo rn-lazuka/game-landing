@@ -1,9 +1,58 @@
 @import '../../components/colors/variables.css';
 
 .AppContainer {
-  text-align: center;
-  box-sizing: border-box;
-  padding-top: var(--header-height);
-  position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: var(--header-height);
+    position: relative;
 }
 
+.shadowLeft {
+    position: absolute;
+    width: 25%;
+    height: calc(100% - var(--header-height) - var(--footer-height));
+    background: rgb(0, 0, 9);
+    background: linear-gradient(90deg, rgba(0, 0, 9, 0.5690651260504201) 0%, rgba(197, 197, 199, 0) 100%);
+}
+
+.shadowRight {
+    composes: shadowLeft;
+    right: 0;
+    background: linear-gradient(270deg, rgba(0, 0, 9, 0.5690651260504201) 0%, rgba(197, 197, 199, 0) 100%);
+}
+
+@media screen and (max-width: 1700px) {
+  .shadowLeft {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 1460px) {
+  .shadowLeft {
+    width: 13%;
+  }
+}
+
+@media screen and (max-width: 1340px) {
+  .shadowLeft {
+    width: 10%;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .shadowLeft {
+    width: 7%;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .shadowLeft {
+    width: 3%;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  .shadowLeft {
+    display: none;
+  }
+}

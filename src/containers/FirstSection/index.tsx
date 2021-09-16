@@ -1,12 +1,12 @@
 import React from 'react';
 import styles from './FirstSection.module.css'
-import town from '../../assets/Header/town.gif'
+import bannerLogo from '../../assets/Header/bannerLogo.png'
 
 const FirstSection = () => {
     return (
         <div className={styles.sectionContainer}>
         <div className={styles.sectionWrapper}>
-            <img src={town} alt="town"/>
+            <img src={bannerLogo} alt="banner Logo" />
         </div>
         </div>
     );

@@ -3,15 +3,15 @@
 .sectionContainer {
     width: 100%;
     background: rgb(169,122,89);
-    background: linear-gradient(180deg, rgba(169,122,89,1) 96%, rgba(182,134,100,1) 98%, rgba(203,153,117,1) 100%);
     display: flex;
     justify-content: center;
     box-sizing: border-box;
     margin: -1px;
+    border-top: solid 4px var(--divider-color);
+    border-bottom: solid 4px var(--border-color);
 }
 
 .sectionWrapper {
-    border-top: solid 4px var(--divider-color);
     max-width: var(--section-max-width);
     width: var(--section-width);
     display: flex;
@@ -20,7 +20,6 @@
     box-sizing: border-box;
     align-items: center;
     padding-bottom: 44px;
-    border-bottom: solid 4px var(--border-color);
 }
 
 .titleWrap {

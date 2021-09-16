@@ -3,11 +3,12 @@
 .sectionContainer {
     width: 100%;
     background: rgb(203,153,117);
-    background: linear-gradient(180deg, rgba(203,153,117,1) 97%, rgba(182,134,100,1) 99%, rgba(169,122,89,1) 100%);
     display: flex;
     justify-content: center;
     box-sizing: border-box;
     margin: -1px;
+    border-top: solid 3px var(--divider-color);
+    border-bottom: solid 4px var(--border-color);
 }
 
 .sectionWrapper {
@@ -20,8 +21,6 @@
     flex-direction: column;
     box-sizing: border-box;
     align-items: center;
-    border-top: solid 3px var(--divider-color);
-    border-bottom: solid 4px var(--border-color);
 }
 
 .titleWrap {

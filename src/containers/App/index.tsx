@@ -13,6 +13,8 @@ class App extends React.Component {
     return (
       <div className={styles.AppContainer}>
         <Header />
+          <div className={styles.shadowLeft}/>
+          <div className={styles.shadowRight}/>
         <FirstSection />
         <HistorySection />
         <AboutSection />
