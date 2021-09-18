@@ -1,10 +1,13 @@
 import React, {FC} from 'react'
-import logo from '../../assets/Header/Logo.png'
-import twitter from '../../assets/Header/Twitter.png'
-import discord from '../../assets/Header/Discord.png'
-import about from '../../assets/Header/About.png';
-import road from '../../assets/Header/Roadmap.png';
-import docs from '../../assets/Header/Docs.png';
+import sanctum from '../../assets/Header/sanctum.png'
+import twitter from '../../assets/Header/twitter.png'
+import medium from '../../assets/Header/medium.png'
+import discord from '../../assets/Header/discord.png'
+import about from '../../assets/Header/about.png';
+import road from '../../assets/Header/roadmap.png';
+import docs from '../../assets/Header/docs.png';
+import marketplace from '../../assets/Header/marketplace.png';
+import partners from '../../assets/Header/partners.png';
 import burger from '../../assets/Burger/burger.png';
 import BurgerMenu from '../../components/BurgerMenu'
 import useToggle from '../../utils/useToggle'
@@ -23,23 +26,31 @@ const Header: FC = () => {
 
             <div className={styles.navWrapper}>
                 <div className={styles.leftWrapper}>
-                    <a href="#">
-                        <img src={logo} alt="logo" className={styles.logo}/>
-                    </a>
-                    <button className={styles.btn}>
+                    <div className={styles.logo}/>
+                    <img src={sanctum} alt="sanctum" className={styles.mobileHeaderImg}/>
+                    <button className={styles.standardBtn}>
                         <img src={about} alt="about"/>
                     </button>
-                    <button className={styles.btn}>
+                    <button className={styles.standardBtn}>
                         <img src={road} alt="road"/>
                     </button>
-                    <button className={styles.btn}>
-                        <img src={docs} alt="road"/>
+                    <button className={styles.marketBtn}>
+                        <img src={marketplace} alt="marketplace"/>
+                    </button>
+                    <button className={styles.docsBtn}>
+                        <img src={docs} alt="docs"/>
+                    </button>
+                    <button className={styles.partnersBtn}>
+                        <img src={partners} alt="partners"/>
                     </button>
                 </div>
                 <div>
                     <button onClick={toggleIsBurgerModal} className={styles.burgerBtn}>
                         <img src={burger} alt="burger"/>
                     </button>
+                    <a href="#" className={styles.linkWrapper}>
+                        <img src={medium} alt="medium" className={styles.socialLink}/>
+                    </a>
                     <a href="#" className={styles.linkWrapper}>
                         <img src={twitter} alt="twitter" className={styles.socialLink}/>
                     </a>

@@ -31,12 +31,12 @@
 }
 
 .container img {
-    width: 45%;
+    width: 55%;
     height: 60%;
 }
 
 @media screen and (max-width: 1600px){
     .container img {
-        max-width: 200px;
+        max-width: 230px;
     }
 }

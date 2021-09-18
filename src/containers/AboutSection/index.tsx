@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './AboutSection.module.css';
-import titleBack from '../../assets/About/titleBack.png';
 import recruiting from '../../assets/About/recruiting.png';
 import recruitingText from '../../assets/About/recruitingText.png';
 import equippingText from '../../assets/About/equippingText.png';

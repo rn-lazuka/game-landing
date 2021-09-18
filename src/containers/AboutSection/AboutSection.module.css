@@ -2,7 +2,7 @@
 
 .sectionContainer {
     width: 100%;
-    background: rgb(203,153,117);
+    background: rgb(203, 153, 117);
     display: flex;
     justify-content: center;
     box-sizing: border-box;
@@ -51,7 +51,7 @@
 .title {
     z-index: 4;
     font-size: var(--title-size);
-    margin-top: 36px;
+    margin-top: 70px;
 }
 
 .textContainer {
@@ -63,11 +63,12 @@
 
 .leftTextContainer {
     composes: textContainer;
-    min-height: 400px;
+    /*min-height: 400px;*/
 }
 
 .sideImg {
     width: 35%;
+    z-index: 10;
 }
 
 .rightTextWrap {
@@ -95,26 +96,25 @@
 
 
 .rightSubTitle {
-    padding-top: 100px;
+    font-family: 'SOBAD', sans-serif;
+    padding-top: 180px;
     display: block;
     font-size: var(--sub-title-size);
     line-height: var(--sub-title-size);
-    font-weight: 600;
-    margin-bottom: 40px;
+    margin-bottom: 24px;
     z-index: 2;
     margin-right: var(--about-text-margin);
 }
 
 .leftSubTitle {
     composes: rightSubTitle;
-    padding-top: 60px;
     margin-left: var(--about-text-margin);
     margin-right: 0;
 }
 
 .rightSubText {
     display: block;
-    font-size: 26px;
+    font-size: var(--text-size);
     max-width: var(--about-text-width);
     z-index: 2;
     margin-right: var(--about-text-margin);
@@ -142,15 +142,38 @@
     }
 }
 
+@media screen  and (max-width: 1024px) {
+    .rightSubTitle {
+        padding-top: 100px;
+    }
+    .textContainer {
+        min-height: max-content;
+        margin-bottom: 36px;
+    }
+}
+
+@media screen  and (max-width: 860px) {
+    .rightSubTitle {
+        padding-top: 0;
+    }
+
+    .sectionWrapper {
+        padding-top: 0;
+    }
+}
+
 @media screen  and (max-width: 700px) {
     .titleWrap {
         min-height: 300px;
         height: 300px;
     }
 
-    .textContainer{
-        min-height: 430px;
-        margin-bottom: 16px;
+    .title {
+        margin-top: 56px;
+    }
+
+    .textContainer {
+        /*min-height: 430px;*/
     }
 }
 
@@ -158,5 +181,17 @@
     .titleWrap {
         min-height: 200px;
         height: 200px;
+    }
+}
+
+@media screen  and (max-width: 500px) {
+    .title {
+        margin-top: 44px;
+    }
+}
+
+@media screen  and (max-width: 380px) {
+    .title {
+        margin-top: 32px;
     }
 }

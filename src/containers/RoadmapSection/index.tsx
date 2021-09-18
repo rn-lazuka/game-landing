@@ -41,6 +41,7 @@ const RoadmapSection = () => {
         </div>
 
         <div className={styles.descriptionBox}>
+          <img src={arrow} alt="arrow" className={styles.mobileArrowImg} />
           <div className={styles.imgContainer}>
             <img src={presaleNFT} alt="presale NFT" className={styles.leftImg} />
             <img src={arrow} alt="arrow" className={styles.arrowImg} />
@@ -58,6 +59,7 @@ const RoadmapSection = () => {
         </div>
 
         <div className={styles.descriptionBox}>
+          <img src={arrow} alt="arrow" className={styles.mobileArrowImg} />
           <div className={styles.imgContainer}>
             <img src={airdrop} alt="airdrop" className={styles.leftImg} />
             <img src={arrow} alt="arrow" className={styles.arrowImg} />
@@ -76,6 +78,7 @@ const RoadmapSection = () => {
         </div>
 
         <div className={styles.descriptionBox}>
+          <img src={arrow} alt="arrow" className={styles.mobileArrowImg} />
           <div className={styles.imgContainer}>
             <img src={tokenomics} alt="tokenomics" className={styles.leftImg} />
             <img src={arrow} alt="arrow" className={styles.arrowImg} />
@@ -92,6 +95,7 @@ const RoadmapSection = () => {
         </div>
 
         <div className={styles.descriptionBox}>
+          <img src={arrow} alt="arrow" className={styles.mobileArrowImg} />
           <div className={styles.imgContainer}>
             <img src={gameLaunch} alt="game Launch" className={styles.leftImg} />
             <img src={arrow} alt="arrow" className={styles.arrowImg} />
@@ -109,6 +113,7 @@ const RoadmapSection = () => {
         </div>
 
         <div className={styles.descriptionBox}>
+          <img src={arrow} alt="arrow" className={styles.mobileArrowImg} />
           <div className={styles.imgContainer}>
             <img src={upgrade} alt="upgrade" className={styles.leftImg} />
           </div>
