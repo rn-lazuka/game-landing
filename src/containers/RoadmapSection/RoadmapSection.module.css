@@ -85,7 +85,7 @@
     display: none;
     position: absolute;
     top: -42px;
-    left: 50%;
+    left: calc(50% - 10px);
     z-index: 1;
 }
 
