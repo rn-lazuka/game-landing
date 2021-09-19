@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/game-landing/static/css/main.d1bd0e0c.chunk.css",
-    "main.js": "/game-landing/static/js/main.f32f591a.chunk.js",
-    "main.js.map": "/game-landing/static/js/main.f32f591a.chunk.js.map",
+    "main.css": "/game-landing/static/css/main.0301a7fa.chunk.css",
+    "main.js": "/game-landing/static/js/main.51a7de6d.chunk.js",
+    "main.js.map": "/game-landing/static/js/main.51a7de6d.chunk.js.map",
     "runtime-main.js": "/game-landing/static/js/runtime-main.f10013e7.js",
     "runtime-main.js.map": "/game-landing/static/js/runtime-main.f10013e7.js.map",
-    "static/js/2.40d1fd20.chunk.js": "/game-landing/static/js/2.40d1fd20.chunk.js",
-    "static/js/2.40d1fd20.chunk.js.map": "/game-landing/static/js/2.40d1fd20.chunk.js.map",
+    "static/js/2.a54fd849.chunk.js": "/game-landing/static/js/2.a54fd849.chunk.js",
+    "static/js/2.a54fd849.chunk.js.map": "/game-landing/static/js/2.a54fd849.chunk.js.map",
     "static/js/3.975020a7.chunk.js": "/game-landing/static/js/3.975020a7.chunk.js",
     "static/js/3.975020a7.chunk.js.map": "/game-landing/static/js/3.975020a7.chunk.js.map",
     "index.html": "/game-landing/index.html",
-    "static/css/main.d1bd0e0c.chunk.css.map": "/game-landing/static/css/main.d1bd0e0c.chunk.css.map",
-    "static/js/2.40d1fd20.chunk.js.LICENSE.txt": "/game-landing/static/js/2.40d1fd20.chunk.js.LICENSE.txt",
+    "static/css/main.0301a7fa.chunk.css.map": "/game-landing/static/css/main.0301a7fa.chunk.css.map",
+    "static/js/2.a54fd849.chunk.js.LICENSE.txt": "/game-landing/static/js/2.a54fd849.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/game-landing/static/media/SOEXT.a04996eb.ttf",
     "static/media/Sprites.27a3ce1f.png": "/game-landing/static/media/Sprites.27a3ce1f.png",
-    "static/media/roadTitle.f12db069.png": "/game-landing/static/media/roadTitle.f12db069.png",
     "static/media/HistorySection.module.css": "/game-landing/static/media/textBackground.b9268d15.png",
-    "static/media/town.fa5bd64f.gif": "/game-landing/static/media/town.fa5bd64f.gif",
+    "static/media/FirstSection.module.css": "/game-landing/static/media/town.fa5bd64f.gif",
     "static/media/transmutation.6275c3b7.png": "/game-landing/static/media/transmutation.6275c3b7.png",
     "static/media/transmute.04b3c5d9.png": "/game-landing/static/media/transmute.04b3c5d9.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f10013e7.js",
-    "static/js/2.40d1fd20.chunk.js",
-    "static/css/main.d1bd0e0c.chunk.css",
-    "static/js/main.f32f591a.chunk.js"
+    "static/js/2.a54fd849.chunk.js",
+    "static/css/main.0301a7fa.chunk.css",
+    "static/js/main.51a7de6d.chunk.js"
   ]
 }
