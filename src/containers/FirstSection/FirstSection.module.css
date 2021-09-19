@@ -20,7 +20,7 @@
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top left;
+    /*background-position: top left;*/
     background-image: url('../../assets/Header/town.gif');
 }
 
