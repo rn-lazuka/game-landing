@@ -13,7 +13,7 @@ import upgrade from '../../assets/Roadmap/upgrade.png'
 
 const RoadmapSection = () => {
   return (
-    <div className={styles.sectionContainer}>
+    <div className={styles.sectionContainer} id="roadmap">
       <div className={styles.sectionWrapper}>
         <div className={styles.titleWrap}>
           <img src={roadTitle} alt="title background" className={styles.titleBackground} />

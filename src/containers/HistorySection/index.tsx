@@ -8,6 +8,7 @@ import sprites from '../../assets/History/Sprites.png'
 import footerDeco from '../../assets/History/footerDeco.png'
 import textBackground from "../../assets/History/textBackground.png";
 import titleDecor from "../../assets/History/titleDecoration.png";
+import separator from "../../assets/About/separator.png";
 
 
 const HistorySection = () => {
@@ -17,8 +18,6 @@ const HistorySection = () => {
                 <div className={styles.titleWrap}>
                     <img src={textBackground} alt="title background" className={styles.titleBackground} />
                     <img src={titleDecor} alt="decoration" className={styles.titleDecoration} />
-                    {/*<div className={styles.titleBackground}/>*/}
-                    {/*<div className={styles.titleDecoration}/>*/}
                     <span className={styles.title}>
                 Write history
             </span>
@@ -41,6 +40,7 @@ const HistorySection = () => {
                 <img src={sprites} alt="sprites" className={styles.sprites}/>
                 <img src={footerDeco} alt="footer decoration" className={styles.footerDecoration}/>
             </div>
+            <img src={separator} alt="separator" className={styles.separator}/>
         </div>
     );
 }

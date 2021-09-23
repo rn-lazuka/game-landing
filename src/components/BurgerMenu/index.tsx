@@ -35,12 +35,16 @@ const BurgerMenuModal: FC<IBurgerMenuProps> = ({isBurgerModal, modalToggleHandle
             <img src={close} alt="close" />
           </button>
           <nav className={styles.nav}>
-            <button className={styles.navBtn} onClick={modalToggleHandler}>
-              <img src={about} alt="about" />
-            </button>
-            <button className={styles.navBtn} onClick={modalToggleHandler}>
-              <img src={roadmap} alt="roadmap" />
-            </button>
+            <a href="#about">
+              <button className={styles.navBtn} onClick={modalToggleHandler}>
+                <img src={about} alt="about" />
+              </button>
+            </a>
+            <a href="#roadmap">
+              <button className={styles.navBtn} onClick={modalToggleHandler}>
+                <img src={roadmap} alt="roadmap" />
+              </button>
+            </a>
             <button className={styles.navBtn} onClick={modalToggleHandler}>
               <img src={marketplace} alt="marketplace" />
             </button>

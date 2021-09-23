@@ -14,11 +14,12 @@ import transmute from '../../assets/About/transmute.png';
 import decoration from '../../assets/About/decoration.png';
 import textBackground from '../../assets/About/aboutTitleBG.png';
 import titleDecor from '../../assets/About/aboutDecor.png';
+import separator from '../../assets/About/separator.png'
 
 
 const AboutSection = () => {
     return (
-        <div className={styles.sectionContainer}>
+        <div className={styles.sectionContainer} id="about">
             <div className={styles.sectionWrapper}>
                 <div className={styles.titleWrap}>
                     <img src={textBackground} alt="title background" className={styles.titleBackground} />
@@ -104,6 +105,7 @@ const AboutSection = () => {
                 <img src={decoration} alt="decoration" className={styles.lastSectionImg}/>
 
             </div>
+            <img src={separator} alt="separator" className={styles.separator}/>
         </div>
     );
 }

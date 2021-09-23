@@ -16,7 +16,7 @@
     --section-width: 1000px;
     --section-max-width: 1000px;
     --about-text-width: 412px;
-    --about-text-margin: 16px;
+    --about-text-margin: 100px;
     --footer-height: 150px;
 }
 
@@ -43,6 +43,11 @@
     }
 }
 
+@media screen and (max-width: 900px) {
+    :root{
+        --about-text-margin: 50px;
+    }
+}
 @media screen and (max-width: 450px) {
     :root {
         --title-size: 44px;
